@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T13:23:20.836733Z",
+  "generated_at": "2026-09-09T13:23:38.856290Z",
   "window_hours": 24,
   "sources": [
     "BBC",
@@ -7,7 +7,7 @@
   ],
   "counts": {
     "BBC": 22,
-    "WSJ": 32
+    "WSJ": 33
   },
   "items": [
     {
@@ -207,6 +207,14 @@
       "link": "https://www.wsj.com/finance/investing/u-s-stock-futures-steady-treasurys-weaken-after-oil-tops-100-42f4c05a",
       "summary": "U.S. stock futures were steady and Treasury yields ticked higher after Brent briefly topped the $100 a barrel mark for the first time since July... American forces destroyed five Iranian oil tankers in response to attacks by Iran on U.S. warships, U.S. Central Command said, adding pressure to an already tight oil market... Shrinking storage levels and rising Chinese demand are biting as markets increasingly anticipate an indeterminate block to shipping through the Strait of Hormuz...",
       "published": "2026-09-09T01:25:00Z",
+      "source": "WSJ",
+      "section": "Markets"
+    },
+    {
+      "title": "Richemont Names Chairman Johann Rupert’s Son as Nonexecutive Co-Deputy Chairman",
+      "link": "https://www.wsj.com/finance/investing/richemont-names-chairman-johann-ruperts-son-as-nonexecutive-co-deputy-chairman-ad38cb41",
+      "summary": "",
+      "published": "2026-09-09T00:21:00Z",
       "source": "WSJ",
       "section": "Markets"
     },
