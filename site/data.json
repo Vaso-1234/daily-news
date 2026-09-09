@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T13:07:07.887672Z",
+  "generated_at": "2026-09-09T13:23:20.836733Z",
   "window_hours": 24,
   "sources": [
     "BBC",
@@ -7,7 +7,7 @@
   ],
   "counts": {
     "BBC": 22,
-    "WSJ": 31
+    "WSJ": 32
   },
   "items": [
     {
@@ -171,6 +171,14 @@
       "section": "Markets"
     },
     {
+      "title": "It’s Getting Harder to Return Things—and It’s Making Shoppers Mad",
+      "link": "https://www.wsj.com/business/retail/its-getting-harder-to-return-thingsand-its-making-shoppers-mad-38b2fc55",
+      "summary": "",
+      "published": "2026-09-09T02:29:00Z",
+      "source": "WSJ",
+      "section": "Business"
+    },
+    {
       "title": "European Gas Prices Hit Highest Since 2023 as Market Braces for Prolonged LNG Squeeze",
       "link": "https://www.wsj.com/finance/commodities-futures/european-gas-prices-hit-highest-since-2023-as-market-braces-for-prolonged-lng-squeeze-799356de",
       "summary": "Concern is mounting that prolonged disruptions to LNG flows could leave Europe competing with Asia for a shrinking pool of available cargoes just as winter approaches... European natural gas prices surged to their highest level since early 2023 as escalating attacks in the Middle East continue to choke liquefied natural gas shipments through one of the world’s most critical transit routes... Front-month Dutch TTF futures, Europe’s benchmark, climbed 3.8% to 78.72 euros a megawatt-hour on Wednesday, their highest intraday level since early 2023, taking gains for the month above 40%. Prices are on pace for their highest close since the end of 2022...",
@@ -331,6 +339,14 @@
       "section": "Business"
     },
     {
+      "title": "Gold Rises, With Middle East and Fed Policy in Focus",
+      "link": "https://www.wsj.com/finance/commodities-futures/gold-slips-traders-eye-inflation-data-a5ad1d66",
+      "summary": "",
+      "published": "2026-09-08T17:41:00Z",
+      "source": "WSJ",
+      "section": "Markets"
+    },
+    {
       "title": "Brent Marches Toward $100 As U.S.-Iran Attacks Escalate",
       "link": "https://www.wsj.com/finance/commodities-futures/oil-rises-as-houthi-militants-attack-amplifies-supply-disruption-fears-f0d68a35",
       "summary": "Brent crude prices traded close to $100 a barrel as attacks in the Middle East escalated as markets saw no credible path to de-escalation. 0705 GMT, Brent crude prices trade close to $100 a barrel as attacks in the Middle East escalate and markets see no credible path to de-escalation in sight... The global oil benchmark climbs 1.6% to $99.49 a barrel, while WTI futures are up 1.4% to $94.31 a barrel... Both benchmarks have gained 20% on the month... According to U.S. Central Command, the U.S. destroyed five Iranian oil tankers on Tuesday in response to fresh attempts by Tehran to strike U.S. warships in recent days...",
@@ -423,14 +439,6 @@
       "link": "https://www.wsj.com/finance/stocks/oil-near-100-threatens-u-s-stocks-stellar-run-cabbaf0c",
       "summary": "Brent crude spiked above $99 a barrel before paring gains... American investors are ready to move on from the Iran war... The march toward $100-a-barrel oil is making that difficult... Brent crude, the international oil benchmark, is now up around 35% from this summer’s lows... It jumped above $99 a barrel Tuesday, the highest since July, before giving up some gains...",
       "published": "2026-09-08T13:54:00Z",
-      "source": "WSJ",
-      "section": "Markets"
-    },
-    {
-      "title": "U.S. Stocks Fall After Saudi Oil Facilities Hit",
-      "link": "https://www.wsj.com/finance/investing/u-s-stocks-fall-after-saudi-oil-facilities-hit-d86a6c27",
-      "summary": "U.S. stocks fell and Treasury yields hit multiyear highs after Yemeni rebels attacked Saudi Arabian energy facilities, pushing oil prices to their highest levels of the summer... The Dow Jones Industrial Average fell 628.18 points, or 1.18%, to 52786.07... The S&P 500 lost 45.08 points, or 0.58%, to 7673.52 and the tech-heavy Nasdaq Composite slipped 85.58 points, or 0.32%, to 26421.41...",
-      "published": "2026-09-08T13:16:00Z",
       "source": "WSJ",
       "section": "Markets"
     }
