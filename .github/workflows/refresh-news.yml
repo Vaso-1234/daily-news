@@ -12,10 +12,13 @@ on:
       - "site/**"
       - ".github/workflows/refresh-news.yml"
 
+# No 'contents: write' anymore: the workflow no longer commits data.json back
+# to the repo. State (the previous data.json, used for 24h accumulation and
+# scrape memoization) is preserved between runs via actions/cache instead.
 permissions:
-  contents: write   # for the auto-commit of data.json
-  pages: write      # for deploying to GitHub Pages
-  id-token: write   # required by actions/deploy-pages for OIDC
+  contents: read
+  pages: write
+  id-token: write
 
 concurrency:
   group: refresh-news
@@ -39,21 +42,27 @@ jobs:
       - name: Install dependencies
         run: pip install -r scripts/requirements.txt
 
+      # Restore the previous run's data.json so the fetcher can carry forward
+      # already-enriched items and avoid re-scraping the same articles every hour.
+      # Cache keys are immutable, so we use a unique per-run key and rely on
+      # restore-keys prefix matching to grab the newest existing entry.
+      - name: Restore previous data.json from cache
+        uses: actions/cache/restore@v4
+        with:
+          path: site/data.json
+          key: daily-news-data-${{ github.run_id }}
+          restore-keys: |
+            daily-news-data-
+
       - name: Fetch latest headlines
         run: python scripts/fetch_news.py
 
-      - name: Commit updated data.json
-        run: |
-          set -euo pipefail
-          git config user.name  "news-bot"
-          git config user.email "news-bot@users.noreply.github.com"
-          git add site/data.json
-          if git diff --cached --quiet; then
-            echo "No changes to commit."
-          else
-            git commit -m "chore: refresh news $(date -u +%FT%TZ)"
-            git push
-          fi
+      - name: Save updated data.json to cache
+        if: success()
+        uses: actions/cache/save@v4
+        with:
+          path: site/data.json
+          key: daily-news-data-${{ github.run_id }}
 
       - name: Upload site as Pages artifact
         uses: actions/upload-pages-artifact@v3
