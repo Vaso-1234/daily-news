@@ -1,4 +1,4 @@
-name: Refresh news
+name: Refresh news + deploy Pages
 
 on:
   schedule:
@@ -9,10 +9,13 @@ on:
     branches: [main]
     paths:
       - "scripts/**"
+      - "site/**"
       - ".github/workflows/refresh-news.yml"
 
 permissions:
-  contents: write
+  contents: write   # for the auto-commit of data.json
+  pages: write      # for deploying to GitHub Pages
+  id-token: write   # required by actions/deploy-pages for OIDC
 
 concurrency:
   group: refresh-news
@@ -51,3 +54,19 @@ jobs:
             git commit -m "chore: refresh news $(date -u +%FT%TZ)"
             git push
           fi
+
+      - name: Upload site as Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: refresh
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
