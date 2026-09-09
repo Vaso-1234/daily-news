@@ -1,0 +1,438 @@
+{
+  "generated_at": "2026-09-09T13:07:07.887672Z",
+  "window_hours": 24,
+  "sources": [
+    "BBC",
+    "WSJ"
+  ],
+  "counts": {
+    "BBC": 22,
+    "WSJ": 31
+  },
+  "items": [
+    {
+      "title": "What tariffs will really cost Canadians and Americans",
+      "link": "https://www.bbc.co.uk/news/articles/cx2z4dv6vn2o?at_medium=RSS&at_campaign=rss",
+      "summary": "Households and businesses have become used to tariffs impacting the cost of living for more than year now, so what will change now? The US and Canada have been locked in a bitter conflict since President Donald Trump launched his flagship trade policy on his return to the White House... The latest escalation has seen tit-for-tat tariffs ramped up to outright bans on imports of certain products, with an easing of tensions looking unlikely anytime soon and further import taxes set to come into force... Amid all the fierce political rhetoric, people are being impacted by the breakdown in relations between these North American neighbours... Here's what will be affected most on both sides of the border...",
+      "published": "2026-09-09T13:06:32Z",
+      "source": "BBC",
+      "section": "Business"
+    },
+    {
+      "title": "More flights delayed after hundreds cancelled by air traffic control glitch",
+      "link": "https://www.bbc.co.uk/news/articles/ce8x3dp1zpxo?at_medium=RSS&at_campaign=rss",
+      "summary": "Departures from a number of airports are affected by a technical problem affecting air traffic control provider Nats... Flight delays will continue on Wednesday after an air traffic control problem in the UK has led to more than 2,000 flights being cancelled... Tens of thousands of passengers have been hit with disruption which saw 291 flights cancelled on Wednesday after 1,750 were axed on Tuesday, according to aviation analytics firm Cirium... Nats, the air traffic control provider, blamed a technical glitch and its boss Martin Rolfe apologised, saying there would be a full investigation after admitting resolving the issue had taken \"longer than hoped\"...",
+      "published": "2026-09-09T12:47:11Z",
+      "source": "BBC",
+      "section": "Business"
+    },
+    {
+      "title": "Anthropic researcher believes more than 10% chance AI 'could kill all humans'",
+      "link": "https://www.bbc.co.uk/news/articles/ckgwy1k42w4o?at_medium=RSS&at_campaign=rss",
+      "summary": "It is the latest in a series of increasing warnings about the safety threat posed by artificial intelligence... A top safety researcher at Anthropic has warned AI is advancing so quickly he believes there is a greater than 10% chance it \"could kill all humans\" within the next decade... Evan Hubinger said in a post on X the risk from the models which currently exist was \"low\" but he was \"worried\" the technology might develop and improve itself soon to the point where it posed an existential risk to humanity... He did not spell out how he thought AI systems could in future result in humans being wiped out...",
+      "published": "2026-09-09T12:36:59Z",
+      "source": "BBC",
+      "section": "Business"
+    },
+    {
+      "title": "Share Energy to increase electricity prices by 12.6%",
+      "link": "https://www.bbc.co.uk/news/articles/c86x0v4ey5yo?at_medium=RSS&at_campaign=rss",
+      "summary": "The supplier said the industry has faced \"exceptional volatility\" following Russia's invasion of Ukraine and instability in the Middle East... Northern Ireland electricity supplier, Share Energy, is to increase its tariff prices by 12.6% from 1 October... The company entered Northern Ireland's electricity market in 2004... Its CEO Damian Wilson said it \"isn't a decision we've taken lightly\" and has called on the government to address the Northern Ireland electricity sector's over-reliance on gas... The Consumer Council for Northern Ireland has said the supplier's credit customers and prepayment customers will see their annual electricity costs rise by about £129 a year... Other energy suppliers such as SSE Airtricity , Firmus Energy and Budget Energy have also recently announced price increases...",
+      "published": "2026-09-09T12:25:11Z",
+      "source": "BBC",
+      "section": "Business"
+    },
+    {
+      "title": "Petrol prices rise by 5p over a week as Iran war sends oil higher",
+      "link": "https://www.bbc.co.uk/news/articles/cj4jwlx77lro?at_medium=RSS&at_campaign=rss",
+      "summary": "A litre of unleaded now costs 167.17p which is the biggest weekly increase since April, data shows... The average price of unleaded petrol has risen by 5p a litre in the space of a week, according to the RAC, which warned there was \"no sign of any relief\" for drivers... The motoring organisation said a litre of unleaded now costs 167.17p, the biggest weekly increase since April, while diesel has also risen by 5p to 188.63p... Fuel prices have soared since the US-Israel war with Iran began at the end of February, with the fighting severely disrupting supplies of crude oil, a key ingredient in petrol and diesel, across the Middle East...",
+      "published": "2026-09-09T12:20:40Z",
+      "source": "BBC",
+      "section": "Business"
+    },
+    {
+      "title": "White House pulls Tetris-style 'Build The Wall' game after copyright concern",
+      "link": "https://www.bbc.co.uk/news/articles/c9v9djj4m3do?at_medium=RSS&at_campaign=rss",
+      "summary": "The Tetris Company says it takes \"copyright infringement very seriously\" and is not involved with the game... The White House has taken down a Tetris-style game on its website called \"Build The Wall\", days after The Tetris Company raised concerns over its use of the game's likeness... The game, which saw players stack blocks to build a wall to \"protect the border\" is one of five arcade games which have appeared on the White House website... On 4 September the official Tetris account on X posted the firm was \"not involved in the creation\" of the game and it took \"copyright infringement very seriously\"...",
+      "published": "2026-09-09T12:06:40Z",
+      "source": "BBC",
+      "section": "Tech"
+    },
+    {
+      "title": "Why are petrol and diesel prices rising again?",
+      "link": "https://www.bbc.co.uk/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss",
+      "summary": "The price of unleaded hits 167p a litre, according to motoring group the RAC, as oil prices remain elevated... UK petrol prices surged this week as the conflict in the Middle East continues to hit drivers' finances... When the US-Israel war with Iran began on 28 February, fuel prices climbed as the military strikes severely disrupted the production and transportation of energy across the region... Prices fell back when the US and Iran agreed to a framework deal to end the fighting in June but have started rising again as tensions resurface...",
+      "published": "2026-09-09T12:03:59Z",
+      "source": "BBC",
+      "section": "Business"
+    },
+    {
+      "title": "Learner drivers still forced to wait months to book tests",
+      "link": "https://www.bbc.co.uk/news/articles/cx2z421xe0zo?at_medium=RSS&at_campaign=rss",
+      "summary": "The Driver and Vehicle Standards Agency had been given a target to reduce average wait times to seven weeks... Learner drivers have to wait an average 20 weeks, or around five months, before booking a practical test, according to new figures, despite attempts to reduce delays... The data from the Driver and Vehicle Standards Agency (DVSA) for August is only a marginal improvement from 20.2 weeks in July... The average wait time between booking and sitting a test is unchanged at 11.1 weeks... The DVSA initially had a target of reducing the average waiting time to seven weeks by the end of last year...",
+      "published": "2026-09-09T11:57:34Z",
+      "source": "BBC",
+      "section": "Business"
+    },
+    {
+      "title": "US to ban imports of some Canadian alcohol, dairy goods and motorbikes",
+      "link": "https://www.bbc.co.uk/news/articles/c99dm1000p7o?at_medium=RSS&at_campaign=rss",
+      "summary": "It is the latest strike in a long trade war, and comes after Canadian counter-tariffs on US goods come into force... The US will ban imports of a range of Canadian products, including alcoholic spirits, some dairy goods and motorbikes, after its neighbour's retaliatory tariffs on American goods came into force... In a series of executive orders on Tuesday, President Donald Trump said Canada was \"discriminating\" against the US and outlined the bans, which will begin on 29 September... Officials on both sides have said they would like to strike a trade deal, but no new talks have been scheduled since negotiations collapsed in late August...",
+      "published": "2026-09-09T10:20:40Z",
+      "source": "BBC",
+      "section": "Business"
+    },
+    {
+      "title": "What are my rights if my flight is cancelled or delayed?",
+      "link": "https://www.bbc.co.uk/news/articles/c9qxnyengdjo?at_medium=RSS&at_campaign=rss",
+      "summary": "Flights are cancelled owing to air traffic control problems, so what are your rights if you're affected? Thousands of air passengers have seen their travel plans disrupted after an air traffic control problem grounded nearly 2,000 flights across the UK . When a flight is cancelled or delayed, passengers affected have various rights, such as a refund or be put on another flight... However, these can vary depending on which carrier you are flying with and from where... Only when an airline is at fault, not issues such as air traffic control problems, is extra compensation payable... Here's what it means for you...",
+      "published": "2026-09-09T08:04:14Z",
+      "source": "BBC",
+      "section": "Business"
+    },
+    {
+      "title": "Singaporean man pleads guilty in US to massive crypto heist",
+      "link": "https://www.bbc.co.uk/news/articles/crl6z03pr0do?at_medium=RSS&at_campaign=rss",
+      "summary": "Malone Lam and his associates used the proceeds of their crimes to fund a luxurious lifestyle, US authorities said... A Singaporean man pleaded guilty on Tuesday to a racketeering conspiracy charge in the US for organising one of the biggest ever cryptocurrency thefts... Malone Lam admitted to teaming up with friends to steal $245m (£181m) of bitcoin and laundering the proceeds... The 22-year-old and his associates used the money to spend up to $500,000 per evening at nightclubs, according to the US Department of Justice (DOJ)... It also said they bought a fleet of exotic cars, ranging in value from $100,000 to $3.8m... Lam faces a maximum prison sentence of 20 years...",
+      "published": "2026-09-09T05:49:30Z",
+      "source": "BBC",
+      "section": "Business"
+    },
+    {
+      "title": "'We were target of sinister heating oil theft and want to warn others'",
+      "link": "https://www.bbc.co.uk/news/articles/cwyznn972d7o?at_medium=RSS&at_campaign=rss",
+      "summary": "A charity is warning about the risk of home heating oil thefts after falling victim to the crime... The head of a rural community charity has warned of the growing risk of home heating oil theft after her own organisation fell victim to thieves... Kate Clifford, director of the Rural Community Network (RCN), arrived at the charity's offices one morning to find the heat was not working... \"We initially thought there must be a leak, but then we could see damage to the tank and knew something was seriously wrong,\" she said... The charity had only recently filled its tank with more than 1,000 litres of oil which police later confirmed had been stolen...",
+      "published": "2026-09-09T05:10:43Z",
+      "source": "BBC",
+      "section": "Business"
+    },
+    {
+      "title": "Cowboy builder tore my home apart and disappeared off the face of the Earth with £14k",
+      "link": "https://www.bbc.co.uk/news/articles/clykjmjm6m0o?at_medium=RSS&at_campaign=rss",
+      "summary": "Victims of cowboy builders describe how they were exploited with one couple left \"scarred for life\"... A rogue builder tore Sheri Ingram's home apart and \"disappeared off the face of the Earth\" with £14,000... In February, Lee Slocombe, from Swansea, was jailed for six years after defrauding nine victims of £400,000, with this his latest conviction in a decade of offending... The UK government announced in August plans to give people greater protections against \"cowboy builders\" through a database of trusted traders... Ingram, from Cardiff, welcomed it, but questioned where the incentive would be for tradespeople to sign up to the voluntary scheme...",
+      "published": "2026-09-09T05:00:30Z",
+      "source": "BBC",
+      "section": "Business"
+    },
+    {
+      "title": "Chewy Profit, Revenue Rise as Customer Base Continues to Grow",
+      "link": "https://www.wsj.com/business/earnings/chewy-profit-revenue-rise-as-customer-base-continues-to-grow-83b8b1e5",
+      "summary": "The online pet-supplies retailer posted a second-quarter profit of $80.5 million, or 20 cents a share, compared with $62 million, or 14 cents a share, a year earlier... Chewy’s profit and revenue rose in the latest quarter as it continued to grow its active customer base...",
+      "published": "2026-09-09T05:00:00Z",
+      "source": "WSJ",
+      "section": "Business"
+    },
+    {
+      "title": "Albertsons Names Former HP, eBay CEO Meg Whitman as Executive Chair to Help Spur Growth",
+      "link": "https://www.wsj.com/business/retail/albertsons-names-former-hp-ebay-ceo-meg-whitman-as-executive-chair-to-help-spur-growth-cd3b4d15",
+      "summary": "Albertsons named former eBay and Hewlett Packard chief Meg Whitman to the newly created post of executive chair, as the grocery-store operator grapples with falling sales and cautious consumer spending... Albertsons on Wednesday said Whitman will serve as an operations and strategic adviser to Chief Executive Susan Morris as the company works to sharpen strategy, strengthen execution and increase profitable growth throughout all parts of its business...",
+      "published": "2026-09-09T04:46:00Z",
+      "source": "WSJ",
+      "section": "Business"
+    },
+    {
+      "title": "Jersey Mike’s Logs Higher Revenue on Growing Customer Base",
+      "link": "https://www.wsj.com/business/earnings/jersey-mikes-logs-higher-revenue-on-growing-customer-base-2a836012",
+      "summary": "Jersey Mike’s Subs reported higher revenue and sales in its first quarterly readout since its Blackstone-backed initial public offering this summer, as the company continues to broaden its customer base and grow its digital channels... The sandwich chain on Wednesday posted a profit of $37 million for its quarter ended June 28, down from $59 million a year earlier...",
+      "published": "2026-09-09T04:42:00Z",
+      "source": "WSJ",
+      "section": "Business"
+    },
+    {
+      "title": "Signet Jewelers Raises Outlook After Swinging to Quarterly Profit",
+      "link": "https://www.wsj.com/business/earnings/signet-jewelers-raises-outlook-after-swinging-to-quarterly-profit-7bb4038d",
+      "summary": "Signet Jewelers raised its adjusted earnings outlook for the year after swinging to a profit in the second quarter... The jeweler, which owns Jared and Kay Jewelers, now expects annual adjusted earnings per share to be $10.45 to $12.15, up from its previous guidance of $9.20 to $11...",
+      "published": "2026-09-09T04:14:00Z",
+      "source": "WSJ",
+      "section": "Business"
+    },
+    {
+      "title": "Platinum Set for Surplus in 2026 After Three Years of Deficit",
+      "link": "https://www.wsj.com/finance/commodities-futures/platinum-set-for-surplus-in-2026-after-three-years-of-deficit-3270dd0c",
+      "summary": "Supplies will be in surplus this year as investors turn their back on the metal and Chinese jewelry demand weakens, the World Platinum Investment Council said... The council shifted its 2026 market forecast to a slim surplus of 265,000 troy ounces... Earlier this year, it forecast a deficit of 297,000 ounces...",
+      "published": "2026-09-09T03:32:00Z",
+      "source": "WSJ",
+      "section": "Markets"
+    },
+    {
+      "title": "Watch the AI Boom’s Weakest Link",
+      "link": "https://www.wsj.com/finance/stocks/watch-the-ai-booms-weakest-link-0e946648",
+      "summary": "Plus, Happy iPhone Day If it seems like the biggest change in each iteration of the iPhone lately has been its price tag, you aren’t alone... But today the world’s second most valuable company is expected to unveil its first foldable version, costing almost $2,000... The timing, on a day when oil topped $100 a barrel and bond yields touched a multiyear high, isn’t ideal... But stocks look set to shake off the macroeconomic concerns that pinched them on Tuesday with a flattish open. ​📈 Follow our live markets data and coverage...",
+      "published": "2026-09-09T03:16:00Z",
+      "source": "WSJ",
+      "section": "Markets"
+    },
+    {
+      "title": "The High-Stakes Gamble Playing Out in the Natural-Gas Market",
+      "link": "https://www.wsj.com/finance/commodities-futures/the-high-stakes-gamble-playing-out-in-the-natural-gas-market-334f774b",
+      "summary": "Europe has stockpiled only enough natural gas to get through a mild winter... Europe is acting unusually... Faced with its second energy crisis in four years, you would think countries would be doing everything in their power to have proper provisions for winter... Instead, the region is about to head into the colder months with the lowest levels of natural gas in storage in 15 years... It is a sign that some governments in Europe are willing to roll the dice on what happens next in energy markets rather than repeat mistakes made back in 2022... That could help keep already high gas prices in check...",
+      "published": "2026-09-09T02:29:00Z",
+      "source": "WSJ",
+      "section": "Markets"
+    },
+    {
+      "title": "European Gas Prices Hit Highest Since 2023 as Market Braces for Prolonged LNG Squeeze",
+      "link": "https://www.wsj.com/finance/commodities-futures/european-gas-prices-hit-highest-since-2023-as-market-braces-for-prolonged-lng-squeeze-799356de",
+      "summary": "Concern is mounting that prolonged disruptions to LNG flows could leave Europe competing with Asia for a shrinking pool of available cargoes just as winter approaches... European natural gas prices surged to their highest level since early 2023 as escalating attacks in the Middle East continue to choke liquefied natural gas shipments through one of the world’s most critical transit routes... Front-month Dutch TTF futures, Europe’s benchmark, climbed 3.8% to 78.72 euros a megawatt-hour on Wednesday, their highest intraday level since early 2023, taking gains for the month above 40%. Prices are on pace for their highest close since the end of 2022...",
+      "published": "2026-09-09T02:15:00Z",
+      "source": "WSJ",
+      "section": "Markets"
+    },
+    {
+      "title": "The U.S. Wants Federal Contractors to Hire More Vets. Most Are Falling Short of Targets.",
+      "link": "https://www.wsj.com/business/the-u-s-wants-federal-contractors-to-hire-more-vets-most-are-falling-short-of-targets-a26c6c30?mod=hp_listb_pos1",
+      "summary": "Federal contractors are largely failing to meet government-set hiring goals for military personnel, a new analysis finds... Companies that do business with the U.S. government are largely failing to meet federal targets for hiring military veterans, a new analysis finds... Among federal contractors in the S&P 500, 2.4% of new hires were veterans in 2025, less than half of the 5.1% target set by the federal government, according to a report released Wednesday by the Rand Corp., a research organization that frequently focuses on military and national security policy...",
+      "published": "2026-09-09T02:00:00Z",
+      "source": "WSJ",
+      "section": "Business"
+    },
+    {
+      "title": "Nordic Energy Company Fortum Shares Jump on Google Nuclear Power Agreement",
+      "link": "https://www.wsj.com/business/energy-oil/nordic-energy-company-fortum-shares-jump-on-google-nuclear-power-agreement-cc3d2893",
+      "summary": "Shares jumped after the Nordic energy company signed a deal with Google to power data centers in Finland... In morning European trade, shares were 8.3% higher at 23.11 euros...",
+      "published": "2026-09-09T01:44:00Z",
+      "source": "WSJ",
+      "section": "Business"
+    },
+    {
+      "title": "U.S. Stock Futures Slip, Treasurys Weaken After Oil Tops $100",
+      "link": "https://www.wsj.com/finance/investing/u-s-stock-futures-steady-treasurys-weaken-after-oil-tops-100-42f4c05a",
+      "summary": "U.S. stock futures were steady and Treasury yields ticked higher after Brent briefly topped the $100 a barrel mark for the first time since July... American forces destroyed five Iranian oil tankers in response to attacks by Iran on U.S. warships, U.S. Central Command said, adding pressure to an already tight oil market... Shrinking storage levels and rising Chinese demand are biting as markets increasingly anticipate an indeterminate block to shipping through the Strait of Hormuz...",
+      "published": "2026-09-09T01:25:00Z",
+      "source": "WSJ",
+      "section": "Markets"
+    },
+    {
+      "title": "Google to Invest $15 Billion in AI Infrastructure in Finland",
+      "link": "https://www.wsj.com/business/google-to-invest-15-billion-in-data-centers-and-infrastructure-in-finland-335c5ee2",
+      "summary": "Google said its largest single investment in Europe would power its popular services, such as Gemini, Search, Maps, and YouTube... Alphabet’s Google said it would spend more than $15 billion to develop artificial-intelligence infrastructure in Finland, the latest big-ticket commitment from a U.S. tech giant to bolster its AI capacity overseas... The company said the investment of at least 13 billion euros, equivalent to $15.11 billion, would fund data centers and other infrastructure, including clean energy projects, between 2027 and 2028 across four locations...",
+      "published": "2026-09-09T00:14:00Z",
+      "source": "WSJ",
+      "section": "Business"
+    },
+    {
+      "title": "Google to Invest $15 Billion in Data Centers and Infrastructure in Finland",
+      "link": "https://www.wsj.com/tech/google-to-invest-15-billion-in-data-centers-and-infrastructure-in-finland-335c5ee2?mod=goog_fin_scwsj",
+      "summary": "Google said its largest single investment in Europe would power its popular services, such as Gemini, Search, Maps, and YouTube... Alphabet’s Google said it would spend more than $15 billion to develop artificial-intelligence infrastructure in Finland, the latest big-ticket commitment from a U.S. tech giant to bolster its AI capacity overseas... The company said the investment of at least 13 billion euros, equivalent to $15.11 billion, would fund data centers and other infrastructure, including clean energy projects, between 2027 and 2028 across four locations...",
+      "published": "2026-09-09T00:14:00Z",
+      "source": "WSJ",
+      "section": "Tech"
+    },
+    {
+      "title": "CVC Names TPG’s Todd Sisitsky as Co-CEO",
+      "link": "https://www.wsj.com/finance/investing/cvc-names-tpgs-todd-sisitsky-as-co-ceo-83d95aef",
+      "summary": "The buyout group named TPG executive Todd Sisitsky and company insider Peter Rutland as co-chiefs as it outlined its leadership succession plan... CVC Capital Partners named TPG TPG -3.30 % decrease; down pointing triangle executive Todd Sisitsky and company insider Peter Rutland as co-chief executives as the buyout group outlined its leadership succession plan... Amsterdam-listed CVC said Sisitsky and Rutland would take over as co-CEOs by the first quarter of 2028, when current CEO Rob Lucas will step down from his role...",
+      "published": "2026-09-08T23:28:00Z",
+      "source": "WSJ",
+      "section": "Markets"
+    },
+    {
+      "title": "Meta continues to run ads promoting child sexual abuse material in India - report",
+      "link": "https://www.bbc.co.uk/news/articles/cqxv2vwjjq3o?at_medium=RSS&at_campaign=rss",
+      "summary": "The report follows a BBC Eye investigation that found Instagram running paid ads promoting such material in India... Warning: This story contains descriptions of abuse Meta ran hundreds of paid ads with artificial intelligence-generated child sexual abuse imagery, including several in India, over the past 10 months, a new report by US-based campaigners has found... The report comes two months after the Indian government ordered Meta to remove all ads and content promoting child sexual abuse material (CSAM) on Instagram... This was in the aftermath of a BBC Eye investigation which found that Instagram was running paid adverts promoting CSAM in India...",
+      "published": "2026-09-08T23:27:23Z",
+      "source": "BBC",
+      "section": "Tech"
+    },
+    {
+      "title": "RBA’s Hawkish Comments Have Lit Fuse for September Rate Increase",
+      "link": "https://www.wsj.com/economy/central-banking/rbas-hawkish-comments-have-lit-fuse-for-september-rate-increase-0d10b226",
+      "summary": "Central bankers are usually reserved, with their public comments limited to pre-prepared lines that are often coached into them by internal staff... But there are also rare moments when the curtains are pulled back, and the reality of the debate within the corridors of a central bank are made visible...",
+      "published": "2026-09-08T23:24:00Z",
+      "source": "WSJ",
+      "section": "Economy"
+    },
+    {
+      "title": "Zara Parent Inditex Weathers Tough Backdrop for Fashion",
+      "link": "https://www.wsj.com/business/retail/zara-parent-inditex-posts-steady-growth-despite-tough-market-backdrop-6740473d",
+      "summary": "The owner of Zara booked a 9% on-year increase in sales from Aug. 1 through Sept. 7 on a constant-currency basis... Inditex ITX -4.42 % decrease; down pointing triangle , the owner of fashion brand Zara, said sales show no signs of slowing, despite continued pressure on the world’s retailers from the Middle East war and a challenged global economy... The Spanish group, also home to other high-street apparel labels such as Massimo Dutti and Bershka, booked a 9% on-year increase in sales from Aug. 1 through Sept. 7, in line with the rate of growth through the fiscal first half, and faster than growth last year...",
+      "published": "2026-09-08T23:06:00Z",
+      "source": "WSJ",
+      "section": "Business"
+    },
+    {
+      "title": "Should promotion depend on how workers use AI?",
+      "link": "https://www.bbc.co.uk/news/articles/c1j1896e973o?at_medium=RSS&at_campaign=rss",
+      "summary": "More companies are tying career progression to AI use: is that fair? It's in Duncan Trevithick's interest to be good at using AI at work, if he can use it to get more tasks done, faster, he'll qualify for a bonus at the end of the year... On the surface, it's a great incentive... But he's questioning what's really in it for him... \"The uncomfortable interpretation is that employees are being assessed on how effectively they can participate in their own redundancy,\" says Spain-based Trevithick, 34, who works in marketing for an AI training data company...",
+      "published": "2026-09-08T23:05:23Z",
+      "source": "BBC",
+      "section": "Business"
+    },
+    {
+      "title": "I'm 27 and I've already written my will - here's why",
+      "link": "https://www.bbc.co.uk/news/articles/cn8np9wwe35o?at_medium=RSS&at_campaign=rss",
+      "summary": "For many young people making a will may not seem necessary, but here's why you shouldn't put it off... Writing a will is probably not on the to-do lists of most 27-year-olds... But Erin Atkinson has already decided what should happen to her money and belongings when she dies... \"At first it felt quite surreal because you associate wills with older people,\" she says... Erin works in psychological research at a London university and moved to the capital from Bristol four years ago... She now rents and, although she did not want to share her exact salary, does not see herself as particularly wealthy... Even so, she has already decided where some of her things should go...",
+      "published": "2026-09-08T23:04:17Z",
+      "source": "BBC",
+      "section": "Business"
+    },
+    {
+      "title": "L Catterton-Led Consortium to Buy Majority Stake in Hyrox",
+      "link": "https://www.wsj.com/business/media/l-catterton-led-consortium-to-buy-majority-stake-in-hyrox-894e2611",
+      "summary": "A consortium led by L Catterton is buying a majority stake in athletic competition Hyrox from Infront Sports & Media... L Catterton, backed by fashion company LVMH , is making the investment alongside Hyrox founders Christian Toetzke and Moritz Furste, and venture-capital firm WndrCo, Infront said Tuesday...",
+      "published": "2026-09-08T22:50:00Z",
+      "source": "WSJ",
+      "section": "Business"
+    },
+    {
+      "title": "OpenAI says it cracked 90-year-old maths problem in 88 hours",
+      "link": "https://www.bbc.co.uk/news/articles/cy7zygy3rl2o?at_medium=RSS&at_campaign=rss",
+      "summary": "OpenAI's claim that it solved parts of Navier-Stokes equations has quickly stirred controversy... OpenAI says it has found a solution to a decades-old advanced maths problem in a matter of hours using a new artificial intelligence (AI) model and thousands of AI bots... The ChatGPT-maker said on Tuesday that by focusing a group of roughly 10,000 AI agents, or AI bots that undertake tasks somewhat autonomously, it solved a notoriously difficult maths problem in just 88 hours... The problem was part of the Navier-Stokes equations , which concern how fluids move... For 90 years important aspects of the problems have lacked a proof, the argument underlying a correct math equation...",
+      "published": "2026-09-08T20:57:09Z",
+      "source": "BBC",
+      "section": "Business"
+    },
+    {
+      "title": "Amazon Plane’s Systems Weren’t Deployed to Slow Jet Before Crash, Investigators Say",
+      "link": "https://www.wsj.com/business/airlines/amazon-planes-systems-werent-deployed-to-slow-jet-before-crash-investigators-say-5ce659c7",
+      "summary": "The National Transportation Safety Board didn’t find evidence that speed brakes or thrust reversers were deployed... Two systems that could have slowed an Amazon Air flight that crashed in Miami over the weekend weren’t deployed before the plane careened off a runway and crashed into nearby vehicles, investigators said late Tuesday... The National Transportation Safety Board didn’t find evidence on one of the plane’s black boxes that the Boeing 767’s speed brakes, which are panels that create aerodynamic drag, or thrust reversers, which redirect air to lower the plane’s speed while landing, were deployed, lead investigator Chihoon Shin said at a news briefing...",
+      "published": "2026-09-08T20:24:00Z",
+      "source": "WSJ",
+      "section": "Business"
+    },
+    {
+      "title": "China’s Consumer, Producer Inflation Edge Higher",
+      "link": "https://www.wsj.com/economy/chinas-consumer-producer-inflation-edge-higher-c8f208b7",
+      "summary": "China’s consumer and factory-gate prices edged higher in August, fueled by energy-market jitters tied to renewed tensions in the Middle East... The producer-price index climbed 3.8% in August from a year earlier, accelerating from July’s 3.5% increase, data from the National Bureau of Statistics showed Wednesday... The figure topped the median 3.7% increase projected by economists in a Wall Street Journal poll...",
+      "published": "2026-09-08T20:01:00Z",
+      "source": "WSJ",
+      "section": "Economy"
+    },
+    {
+      "title": "Tech Life",
+      "link": "https://www.bbc.co.uk/sounds/play/w3ct8jyd?at_medium=RSS&at_campaign=rss",
+      "summary": "Scammers demand money from Instagram users over fake copyright claims... Use BBC.com or the new BBC App to listen to BBC podcasts, Radio 4 and the World Service outside the UK. Find out how to listen to other BBC stations World Service , · 08 Sep 2026 , · 26 mins Lots of people make a living from social media posts... But some have been targeted by an international extortion scheme... It involves a flood of false copyright infringement claims... It only stops if the extorter is paid... Imran Rahman-Jones has the story... Also this week: could AI help to spot wrong-way driving on Ireland's major roads...",
+      "published": "2026-09-08T20:00:00Z",
+      "source": "BBC",
+      "section": "Tech"
+    },
+    {
+      "title": "Trump Signs Orders to Ban Some Canadian Products From U.S. Market",
+      "link": "https://www.wsj.com/economy/trade/trump-says-he-will-block-canadian-firms-from-government-contracts-a4c3c21e",
+      "summary": "The ban will affect a small subset of industries but could be ruinous for those companies if the trade prohibitions go into effect in three weeks... President Trump on Tuesday signed orders to ban the importation of many dairy products, alcoholic beverages and motorcycles from Canada in three weeks, a retaliation for Canadian tariffs that took effect earlier the same day... Trump also modified the scope of some existing 50% tariffs on Canada, removing levies on cement, road salt and some hospital products, while imposing 50% levies on other products including some all-terrain vehicles, boats and cheeses...",
+      "published": "2026-09-08T19:51:00Z",
+      "source": "WSJ",
+      "section": "Economy"
+    },
+    {
+      "title": "Six Charts That Explain How Americans Really Feel About the Economy",
+      "link": "https://www.wsj.com/economy/consumers/six-charts-that-explain-how-americans-really-feel-about-the-economy-2243d7da",
+      "summary": "Official data shows steady growth and low unemployment, but misses how rising costs have left many Americans behind... Last month, the country added an impressive 162,000 jobs... The unemployment rate is low... The stock market and artificial intelligence are making many people rich and boosting retirement savings... Yet surveys tell us Americans are still in a funk... Their sour mood doesn’t match up with what major indicators say about how the U.S. economy is performing...",
+      "published": "2026-09-08T18:00:00Z",
+      "source": "WSJ",
+      "section": "Economy"
+    },
+    {
+      "title": "Sapporo to move some beer production from Canada to US after tariffs",
+      "link": "https://www.bbc.co.uk/news/articles/c87ve09pgqzo?at_medium=RSS&at_campaign=rss",
+      "summary": "The Japanese brewer plans to shift non-alcoholic beer brewing to the US from Canada as tariffs bite Japanese brewer Sapporo says it will move some beer production from Canada to the US after new tariffs on Canadian beer took effect on Tuesday . The move follows the introduction of a 50% tariff on beer imported from Canada... For companies shipping beer across the border , that means significantly higher costs . Chief strategy officer Rieko Shofu described tariffs as \"something out of our control,\" telling Bloomberg that the beer giant would \"move ahead with local production\"... Sapporo did not immediately respond to the BBC's request for comment...",
+      "published": "2026-09-08T17:41:42Z",
+      "source": "BBC",
+      "section": "Business"
+    },
+    {
+      "title": "Brent Marches Toward $100 As U.S.-Iran Attacks Escalate",
+      "link": "https://www.wsj.com/finance/commodities-futures/oil-rises-as-houthi-militants-attack-amplifies-supply-disruption-fears-f0d68a35",
+      "summary": "Brent crude prices traded close to $100 a barrel as attacks in the Middle East escalated as markets saw no credible path to de-escalation. 0705 GMT, Brent crude prices trade close to $100 a barrel as attacks in the Middle East escalate and markets see no credible path to de-escalation in sight... The global oil benchmark climbs 1.6% to $99.49 a barrel, while WTI futures are up 1.4% to $94.31 a barrel... Both benchmarks have gained 20% on the month... According to U.S. Central Command, the U.S. destroyed five Iranian oil tankers on Tuesday in response to fresh attempts by Tehran to strike U.S. warships in recent days...",
+      "published": "2026-09-08T17:30:00Z",
+      "source": "WSJ",
+      "section": "Markets"
+    },
+    {
+      "title": "Is China Stealing American AI? Why ‘Distillation’ Has Washington Up in Arms",
+      "link": "https://www.wsj.com/tech/ai/is-china-stealing-american-ai-why-distillation-has-washington-up-in-arms-f924d29e",
+      "summary": "U.S. security agencies accused six Chinese AI companies of systematically exploiting American models to train their own systems... U.S. security agencies on Tuesday accused six Chinese artificial intelligence companies of systematically exploiting American AI models to train their own systems... The agencies, including the National Security Agency and the Federal Bureau of Investigation, said the Chinese companies have engaged in “aggressive, malicious, and targeted distillation activities at an industrial scale.” The key word is “distillation,” a technique by which a new AI model taps the expertise of an existing one...",
+      "published": "2026-09-08T17:01:00Z",
+      "source": "WSJ",
+      "section": "Tech"
+    },
+    {
+      "title": "New law to force tech firms to stop children taking or sharing nude images",
+      "link": "https://www.bbc.co.uk/news/articles/cgrv9ypp5x2o?at_medium=RSS&at_campaign=rss",
+      "summary": "The government said it will legislate \"as soon as they can\" but may \"reassess\" its plans if firms make the desired changes sooner... The government has said it will introduce a new law to force tech firms to prevent children from taking or sharing nude images on mobile devices... Apple and Google, which develop the operating systems of most smartphones used in the UK, were given three months in June to block access to nude images on smartphones and other devices used by under-18s... But culture secretary Lisa Nandy MP told MPs on Tuesday that despite \"significant commitments\" from both companies, current proposals \"do not meet the scale of this crisis\"...",
+      "published": "2026-09-08T16:48:29Z",
+      "source": "BBC",
+      "section": "Tech"
+    },
+    {
+      "title": "Anthropic Researcher Quits Over ‘Out-of-Control’ AI Fears",
+      "link": "https://www.wsj.com/tech/ai/anthropic-researcher-quits-over-out-of-control-ai-fears-707b7628",
+      "summary": "Concerns are rising inside AI labs that competition is pushing tech companies to race toward self-improving models that risk spiraling out of human control... An Anthropic researcher is quitting the artificial-intelligence industry over fears that the lab and its competitors are racing to build systems they won’t be able to control, a sign of mounting safety concerns within top AI companies... Jacob Coxon, a researcher who specializes in training new AI models by having them consume vast amounts of data, said Tuesday that he is leaving the company because he doesn’t want to participate in an industrywide rush to build AI systems that can improve themselves, worried such systems could spiral out of control and destroy humanity...",
+      "published": "2026-09-08T16:46:00Z",
+      "source": "WSJ",
+      "section": "Tech"
+    },
+    {
+      "title": "The States on the Front Lines of the Trade War With Canada",
+      "link": "https://www.wsj.com/economy/trade/the-states-on-the-front-lines-of-the-trade-war-with-canada-9dc4da90",
+      "summary": "The latest Canadian tariffs on $20 billion of U.S. exports went into effect Tuesday... A handful of U.S. states are likely to feel a big effect... Canada was the United States’ second biggest trading partner last year, after Mexico... Goods, from dairy to machinery to oil and gas, made up almost 80% of the $426 billion of goods and services that flowed from the U.S. to Canada... After the Trump administration announced new import tariffs on Canadian goods on Aug. 22, Canada responded by imposing tariffs of 15% to 50% on about $20 billion of U.S. imports... Those levies took effect on Tuesday...",
+      "published": "2026-09-08T16:26:00Z",
+      "source": "WSJ",
+      "section": "Economy"
+    },
+    {
+      "title": "Borrowers expecting mortgage rates to drop have hopes dashed",
+      "link": "https://www.bbc.co.uk/news/articles/c770v7y63r0o?at_medium=RSS&at_campaign=rss",
+      "summary": "Major lenders have raised rates on new deals in recent days, leaving many borrowers needing to make a decision... Nearly all the major mortgage lenders in the UK have announced increases in the cost of home loans in recent days... Analysts are uncertain over whether there are more to come, but are urging people who need to find a new deal to act now... Someone whose five-year deal is coming to an end faces paying more than £5,000 more a year on their next deal under a typical rate, if they borrow the same amount of money...",
+      "published": "2026-09-08T15:19:43Z",
+      "source": "BBC",
+      "section": "Business"
+    },
+    {
+      "title": "Carney says US trade war 'will come at a cost' as Canada strikes back on tariffs",
+      "link": "https://www.bbc.co.uk/news/articles/c8jdev0422jo?at_medium=RSS&at_campaign=rss",
+      "summary": "Canada's levies, as high as 50%, will apply to nearly $20bn of US products, from steel to T-shirts... Prime Minister Mark Carney has said that Canada's pivot away from the US as its largest trading partner \"will come at a cost\", as a wave of Canadian retaliatory tariffs on American goods come into force... In a video address, Carney added that the counter-tariffs against the US \"are necessary to protect our workers\"... Canada's levies will apply to nearly C$28bn ($20bn; £15bn) of American products, from steel to furniture to cotton T-shirts, and will be as high as 50%...",
+      "published": "2026-09-08T14:46:16Z",
+      "source": "BBC",
+      "section": "Business"
+    },
+    {
+      "title": "‘60 Minutes’ Returns in a Major Test for New Leadership",
+      "link": "https://www.wsj.com/business/media/60-minutes-returns-in-a-major-test-for-new-leadership-c7ba9f8d",
+      "summary": "The CBS newsmagazine premieres its 59th season Sunday, following dramatic shake-ups. “60 Minutes” creator Don Hewitt had a simple motto for the show: “Tell me a story.” Its new leader, Nick Bilton , is trying to move past a tumultuous period when the show itself was the story... Bilton, a former columnist, author and documentary producer with little experience in television news, was installed by CBS News Editor in Chief Bari Weiss last May as part of a dramatic overhaul of the storied newsmagazine...",
+      "published": "2026-09-08T14:35:00Z",
+      "source": "WSJ",
+      "section": "Business"
+    },
+    {
+      "title": "Casey’s Same-Store Sales Growth Declines Despite Higher Revenue",
+      "link": "https://www.wsj.com/business/earnings/caseys-same-store-sales-growth-declines-despite-higher-revenue-658a346e",
+      "summary": "The convenience store chain said inside same-store sales increased 3.2%, a decline from the year before... Casey’s General Stores CASY -2.99 % decrease; down pointing triangle recorded higher revenue in the fiscal first quarter, but same-stores sales growth slowed...",
+      "published": "2026-09-08T14:08:00Z",
+      "source": "WSJ",
+      "section": "Business"
+    },
+    {
+      "title": "Block Applies to Establish Builders Bank & Trust",
+      "link": "https://www.wsj.com/finance/banking/block-applies-to-establish-builders-bank-trust-3c6c9556",
+      "summary": "The financial technology company is seeking to establish a federally regulated, uninsured national trust bank called Builders Bank & Trust...",
+      "published": "2026-09-08T14:06:00Z",
+      "source": "WSJ",
+      "section": "Markets"
+    },
+    {
+      "title": "What You Can Do to Protect Your Family From Sextortion",
+      "link": "https://www.wsj.com/tech/personal-tech/sextortion-scam-family-tips-816224c6?mod=tech_lead_story",
+      "summary": "Sextortion schemes are traumatizing online attacks that can target teens and adults alike... Just when you think you know all the cyber schemes, fraudsters find new ways to attack... I’d been writing about sextortion scams in which criminals, posing as young women, solicited nude images from teen boys , only to then use the threat of sharing the sensitive photos or videos to extort money from them...",
+      "published": "2026-09-08T13:55:00Z",
+      "source": "WSJ",
+      "section": "Tech"
+    },
+    {
+      "title": "Oil Near $100 Threatens U.S. Stocks’ Stellar Run",
+      "link": "https://www.wsj.com/finance/stocks/oil-near-100-threatens-u-s-stocks-stellar-run-cabbaf0c",
+      "summary": "Brent crude spiked above $99 a barrel before paring gains... American investors are ready to move on from the Iran war... The march toward $100-a-barrel oil is making that difficult... Brent crude, the international oil benchmark, is now up around 35% from this summer’s lows... It jumped above $99 a barrel Tuesday, the highest since July, before giving up some gains...",
+      "published": "2026-09-08T13:54:00Z",
+      "source": "WSJ",
+      "section": "Markets"
+    },
+    {
+      "title": "U.S. Stocks Fall After Saudi Oil Facilities Hit",
+      "link": "https://www.wsj.com/finance/investing/u-s-stocks-fall-after-saudi-oil-facilities-hit-d86a6c27",
+      "summary": "U.S. stocks fell and Treasury yields hit multiyear highs after Yemeni rebels attacked Saudi Arabian energy facilities, pushing oil prices to their highest levels of the summer... The Dow Jones Industrial Average fell 628.18 points, or 1.18%, to 52786.07... The S&P 500 lost 45.08 points, or 0.58%, to 7673.52 and the tech-heavy Nasdaq Composite slipped 85.58 points, or 0.32%, to 26421.41...",
+      "published": "2026-09-08T13:16:00Z",
+      "source": "WSJ",
+      "section": "Markets"
+    }
+  ]
+}

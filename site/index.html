@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>The Morning Read</title>
+    <meta
+      name="description"
+      content="A short daily read on economics, tech and business from WSJ and the BBC... about a hundred words each..."
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%97%9E%EF%B8%8F%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,900&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <div class="brand">
+          <div class="brand-mark">MR</div>
+          <div>
+            <h1 class="brand-title">The Morning Read</h1>
+            <p class="brand-sub" id="today-date">&nbsp;</p>
+          </div>
+        </div>
+
+        <div class="status">
+          <span class="dot" id="status-dot" aria-hidden="true"></span>
+          <span class="status-text" id="status-text">Loading...</span>
+          <button
+            type="button"
+            class="refresh-btn"
+            id="refresh-btn"
+            title="Fetch the latest data.json"
+          >
+            <svg
+              viewBox="0 0 24 24"
+              width="15"
+              height="15"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <polyline points="23 4 23 10 17 10"></polyline>
+              <polyline points="1 20 1 14 7 14"></polyline>
+              <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path>
+            </svg>
+            <span>Refresh</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="tagline">
+        Everything on economics, tech and business from the last 24 hours... roughly a hundred words each... stories fall off once they age out...
+      </div>
+      <div class="briefing-summary" id="briefing-summary">&nbsp;</div>
+
+      <nav class="filters" aria-label="Filter by source">
+        <div class="filter-row" id="source-filters" role="tablist"></div>
+      </nav>
+    </header>
+
+    <main id="feed" class="feed" aria-live="polite">
+      <p class="empty">Loading the latest briefing...</p>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        Business, markets and tech stories from
+        <a href="https://www.wsj.com" target="_blank" rel="noopener">The Wall Street Journal</a>
+        and
+        <a href="https://www.bbc.com/news/business" target="_blank" rel="noopener">the BBC</a>...
+        refreshed every hour by a small script... click any headline to read the full piece at the source...
+      </p>
+    </footer>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
