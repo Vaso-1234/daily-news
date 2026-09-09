@@ -2,8 +2,10 @@ name: Refresh news + deploy Pages
 
 on:
   schedule:
-    # Every hour, on the hour (UTC). GitHub may delay scheduled runs 5-15 min under load.
-    - cron: "0 * * * *"
+    # Every hour at :17 UTC. GitHub's scheduler is heavily congested at :00 and
+    # commonly drops runs there for low-traffic public repos; off-peak minutes
+    # like :17 fire far more reliably.
+    - cron: "17 * * * *"
   workflow_dispatch: {}
   push:
     branches: [main]
