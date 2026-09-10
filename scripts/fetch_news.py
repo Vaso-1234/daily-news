@@ -445,10 +445,6 @@ def fetch_feed(spec: FeedSpec) -> list[dict]:
         log.warning("  bozo with no entries: %s", parsed.bozo_exception)
         return []
 
-    is_aggregator = any(
-        host in spec.url for host in ("bing.com/news", "news.google.com")
-    )
-
     items: list[dict] = []
     for entry in parsed.entries:
         link = unwrap_click_link((entry.get("link") or "").strip())
@@ -457,13 +453,20 @@ def fetch_feed(spec: FeedSpec) -> list[dict]:
         )
         if not title or not link:
             continue
-        # Aggregator RSS "summary" fields are usually just an anchor tag repeating
-        # the title. Skip and rely on the article-page scrape for real prose.
-        rss_summary = (
-            ""
-            if is_aggregator
-            else strip_html(entry.get("summary") or entry.get("description") or "")
+        # Bing News RSS publishes real one-sentence article snippets in its
+        # <description>/<summary> field (its own public search-result excerpt).
+        # These matter a lot for WSJ, whose article pages now return HTTP 401
+        # with a JS-required bounce page to non-browser clients, so the on-page
+        # scrape yields nothing and the Bing snippet is the ONLY summary text
+        # we get. Google News, in contrast, just repeats the title inside an
+        # <a> tag, so its "summary" is worthless and we deliberately drop it.
+        raw_rss_summary = strip_html(
+            entry.get("summary") or entry.get("description") or ""
         )
+        if "news.google.com" in spec.url:
+            rss_summary = ""
+        else:
+            rss_summary = raw_rss_summary
         items.append(
             {
                 "title": title,
@@ -543,16 +546,27 @@ def enrich(item: dict) -> dict:
 def build_payload() -> dict:
     cutoff = datetime.now(timezone.utc) - timedelta(hours=WINDOW_HOURS)
 
-    # 1. Carry forward previously enriched items that are still in the window.
+    # 1. Carry forward previously enriched items that are still in the window
+    # AND have a real summary. Items whose previous enrichment produced an
+    # empty summary (typically because the article scrape was blocked by a
+    # bot wall like Datadome) are NOT carried forward, so they fall back
+    # through the enrichment path and get a fresh chance at the RSS-snippet
+    # fallback introduced in the aggregator handling above.
     prev_items = load_previous_items()
     kept_prev: dict[str, dict] = {}
+    dropped_empty = 0
     for item in prev_items:
-        if is_in_window(item, cutoff):
-            kept_prev[url_key(item.get("link", ""))] = item
+        if not is_in_window(item, cutoff):
+            continue
+        if not (item.get("summary") or "").strip():
+            dropped_empty += 1
+            continue
+        kept_prev[url_key(item.get("link", ""))] = item
     log.info(
-        "carrying forward %d items still within the %dh window",
+        "carrying forward %d items still within the %dh window (dropped %d empty)",
         len(kept_prev),
         WINDOW_HOURS,
+        dropped_empty,
     )
 
     # 2. Fetch fresh raw items from every feed.

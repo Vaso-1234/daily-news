@@ -2,10 +2,15 @@ name: Refresh news + deploy Pages
 
 on:
   schedule:
-    # Every hour at :17 UTC. GitHub's scheduler is heavily congested at :00 and
-    # commonly drops runs there for low-traffic public repos; off-peak minutes
-    # like :17 fire far more reliably.
-    - cron: "17 * * * *"
+    # Four attempts per hour at off-peak minutes (:07, :22, :37, :52). GitHub
+    # actively de-prioritizes low-traffic public-repo cron jobs and only a
+    # fraction of scheduled runs actually fire (~30% at any single slot). Four
+    # evenly-spaced shots per hour lifts effective hit rate to ~80%+, keeping
+    # the site no more than ~30 min stale in the common case.
+    - cron: "7 * * * *"
+    - cron: "22 * * * *"
+    - cron: "37 * * * *"
+    - cron: "52 * * * *"
   workflow_dispatch: {}
   push:
     branches: [main]
