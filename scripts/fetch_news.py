@@ -50,7 +50,19 @@ ARTICLE_TIMEOUT_SEC = 12
 # and clears once you've had 24 hours to read it.
 WINDOW_HOURS = 24
 # Safety cap so a very chatty news day can't produce an unreadably long page.
-MAX_ITEMS_TOTAL = 80
+MAX_ITEMS_TOTAL = 90
+# Per-source caps applied after sorting items newest-first. Sources not listed
+# here are only bounded by MAX_ITEMS_TOTAL. INDIA is capped at 15 because the
+# user wants a small at-a-glance India column, not a full mirror of every
+# Indian business/politics story published that day.
+PER_SOURCE_CAP: dict[str, int] = {"INDIA": 15}
+
+# Within INDIA we further reserve a floor of general/politics items (from
+# NDTV, section='General') so Livemint's very high morning-IST business
+# publishing cadence can't crowd out political and national coverage. The
+# reserved slots come out of INDIA's 15-item budget: if we can fill this
+# reservation, Livemint gets (15 - INDIA_GENERAL_RESERVE) slots.
+INDIA_GENERAL_RESERVE = 5
 USER_AGENT = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
     "AppleWebKit/537.36 (KHTML, like Gecko) "
@@ -96,6 +108,14 @@ FEEDS: list[FeedSpec] = [
     ),
     FeedSpec("BBC", "Business", "https://feeds.bbci.co.uk/news/business/rss.xml"),
     FeedSpec("BBC", "Tech", "https://feeds.bbci.co.uk/news/technology/rss.xml"),
+    # INDIA is intentionally broader in scope than WSJ/BBC (which are business/
+    # tech only). NDTV Top Stories gives us national + politics + world; the
+    # three Livemint feeds give business/econ/markets depth. All are direct RSS
+    # (no Bing hop) with real article summaries in the <description> field.
+    FeedSpec("INDIA", "General",  "https://feeds.feedburner.com/ndtvnews-top-stories"),
+    FeedSpec("INDIA", "Business", "https://www.livemint.com/rss/companies"),
+    FeedSpec("INDIA", "Economy",  "https://www.livemint.com/rss/economy"),
+    FeedSpec("INDIA", "Markets",  "https://www.livemint.com/rss/markets"),
 ]
 
 
@@ -605,13 +625,59 @@ def build_payload() -> dict:
                 }
             )
 
-    # 4. Merge, sort newest-first, apply the safety cap.
+    # 4. Merge, sort newest-first, apply per-source caps, then the global cap.
     combined: dict[str, dict] = dict(kept_prev)
     for item in enriched_new:
         combined[url_key(item["link"])] = item
 
-    items = sorted(
+    sorted_items = sorted(
         combined.values(),
+        key=lambda x: x.get("published") or "",
+        reverse=True,
+    )
+
+    # Selection loop with two-phase capping:
+    #   Phase A: reserve up to INDIA_GENERAL_RESERVE slots for INDIA/General
+    #     (NDTV) items, taken newest-first. This guarantees political/national
+    #     coverage in the India column even on days when Livemint's business
+    #     firehose would otherwise crowd it out entirely.
+    #   Phase B: fill the rest under PER_SOURCE_CAP, newest-first, skipping
+    #     anything already picked in Phase A.
+    selected: list[dict] = []
+    selected_urls: set[str] = set()
+
+    def _take(it: dict) -> None:
+        key = url_key(it.get("link", ""))
+        if key in selected_urls:
+            return
+        selected.append(it)
+        selected_urls.add(key)
+
+    india_general_taken = 0
+    for it in sorted_items:
+        if it.get("source") != "INDIA" or it.get("section") != "General":
+            continue
+        if india_general_taken >= INDIA_GENERAL_RESERVE:
+            break
+        _take(it)
+        india_general_taken += 1
+
+    per_source_seen: dict[str, int] = {"INDIA": india_general_taken}
+    for it in sorted_items:
+        key = url_key(it.get("link", ""))
+        if key in selected_urls:
+            continue
+        src = it.get("source", "")
+        cap = PER_SOURCE_CAP.get(src)
+        if cap is not None and per_source_seen.get(src, 0) >= cap:
+            continue
+        per_source_seen[src] = per_source_seen.get(src, 0) + 1
+        _take(it)
+
+    # Re-sort by publication time so the display order stays newest-first
+    # regardless of the two-phase selection order.
+    items = sorted(
+        selected,
         key=lambda x: x.get("published") or "",
         reverse=True,
     )[:MAX_ITEMS_TOTAL]

@@ -29,6 +29,22 @@
     day: "numeric",
   });
 
+  // INDIA is a group of outlets (NDTV, Livemint). For the "Read at ..." link
+  // it's nicer to show the actual publisher than the group name. For WSJ/BBC
+  // there is exactly one outlet per group so we just use the source name.
+  function outletFromLink(url) {
+    try {
+      const host = new URL(url).hostname.replace(/^www\./, "");
+      if (host.includes("ndtv.com")) return "NDTV";
+      if (host.includes("livemint.com")) return "Livemint";
+      if (host.includes("wsj.com")) return "WSJ";
+      if (host.includes("bbc.")) return "BBC";
+      return host;
+    } catch {
+      return null;
+    }
+  }
+
   function formatRelative(iso) {
     if (!iso) return "";
     const then = new Date(iso).getTime();
@@ -173,7 +189,8 @@
     more.href = item.link;
     more.target = "_blank";
     more.rel = "noopener noreferrer";
-    more.textContent = "Read at " + item.source + " ...";
+    const outlet = outletFromLink(item.link) || item.source;
+    more.textContent = "Read at " + outlet + " ...";
     card.appendChild(more);
 
     return card;

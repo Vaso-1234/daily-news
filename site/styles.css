@@ -12,6 +12,7 @@
   --accent-strong: #855f14;
   --wsj: #a37820;
   --bbc: #bb1919;              /* BBC red */
+  --india: #d2691e;            /* saffron-ish, distinct from WSJ gold and BBC red */
   --shadow: 0 1px 2px rgba(0, 0, 0, 0.03),
     0 8px 24px rgba(30, 20, 5, 0.06);
   --serif: "Fraunces", "Iowan Old Style", "Charter", Georgia, serif;
@@ -259,8 +260,9 @@ a {
   color: #ffffff;
   background: var(--accent);
 }
-.badge[data-source="WSJ"] { background: var(--wsj); color: #ffffff; }
-.badge[data-source="BBC"] { background: var(--bbc); color: #ffffff; }
+.badge[data-source="WSJ"]   { background: var(--wsj);   color: #ffffff; }
+.badge[data-source="BBC"]   { background: var(--bbc);   color: #ffffff; }
+.badge[data-source="INDIA"] { background: var(--india); color: #ffffff; }
 
 .section-tag { color: var(--text-dim); font-weight: 500; }
 .dot-sep { color: var(--text-mute); }
