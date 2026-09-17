@@ -557,26 +557,36 @@ def build_payload() -> dict:
     cutoff = datetime.now(timezone.utc) - timedelta(hours=WINDOW_HOURS)
 
     # 1. Carry forward previously enriched items that are still in the window
-    # AND have a real summary. Items whose previous enrichment produced an
-    # empty summary (typically because the article scrape was blocked by a
-    # bot wall like Datadome) are NOT carried forward, so they fall back
-    # through the enrichment path and get a fresh chance at the RSS-snippet
-    # fallback introduced in the aggregator handling above.
+    # AND have a real summary AND belong to a currently-configured feed.
+    # * Empty-summary items (typically article scrape blocked by a bot wall)
+    #   are dropped so they fall back through enrichment and get another
+    #   chance at the RSS-snippet fallback.
+    # * Items whose (source, section) tuple is no longer in FEEDS are dropped
+    #   too, otherwise removing a feed (e.g. Livemint from the INDIA column)
+    #   would leave its old items lingering for up to 24h until they naturally
+    #   age out of the rolling window.
+    configured_feeds = {(f.source, f.section) for f in FEEDS}
     prev_items = load_previous_items()
     kept_prev: dict[str, dict] = {}
     dropped_empty = 0
+    dropped_unconfigured = 0
     for item in prev_items:
         if not is_in_window(item, cutoff):
             continue
         if not (item.get("summary") or "").strip():
             dropped_empty += 1
             continue
+        if (item.get("source"), item.get("section")) not in configured_feeds:
+            dropped_unconfigured += 1
+            continue
         kept_prev[url_key(item.get("link", ""))] = item
     log.info(
-        "carrying forward %d items still within the %dh window (dropped %d empty)",
+        "carrying forward %d items still within the %dh window "
+        "(dropped %d empty, %d from removed feeds)",
         len(kept_prev),
         WINDOW_HOURS,
         dropped_empty,
+        dropped_unconfigured,
     )
 
     # 2. Fetch fresh raw items from every feed.
